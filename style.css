@@ -3,12 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  background-image: linear-gradient(120deg, #FFC502 0%, #FF3B22 100%);
+  background-image: linear-gradient(120deg, #0F0F0F 0%, #4F4F4F 100%);
   color: white;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
 }
+
 header {
   font-size: 2rem;
 }
@@ -20,6 +22,7 @@ form {
   justify-content: center;
   align-items: center;
 }
+
 form input,
 form button {
   padding: 0.5rem;
@@ -27,16 +30,19 @@ form button {
   border: none;
   background: #FFFFFF;
 }
+
 form button {
   color: #0DE73F;
   background: #f7fffe;
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
 form button:hover {
   background: #0DE73F;
   color: #FFFFFF;
 }
+
 .todo-container {
   display: flex;
   justify-content: center;
@@ -57,12 +63,19 @@ form button:hover {
   justify-content: space-between;
   align-items: center;
   transition: all 1s ease;
+  border-radius: 20px;
 }
+
 .filter-todo {
   padding: 1rem;
 }
+
 .todo li {
   flex: 1;
+}
+
+.trash-btn {
+  border-radius: 0px 20px 20px 0px;
 }
 
 .trash-btn,
@@ -74,11 +87,13 @@ form button:hover {
   cursor: pointer;
   font-size: 1rem;
 }
+
 .complete-btn {
   background: #0DE73F;
 }
+
 .todo-item {
-  padding: 0rem 0.5rem;
+  padding: 0rem 1.5rem;
 }
 
 .fa-trash,
@@ -91,9 +106,17 @@ form button:hover {
   opacity: 0;
 }
 
+h6 {
+  color: #888888;
+}
+
 .completed {
   text-decoration: line-through;
   opacity: 0.5;
+}
+
+input[type="text"] {
+  outline: none;
 }
 
 /*CUSTOM SELECTOR */
@@ -102,7 +125,7 @@ select {
   -moz-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  outline: 0;
+  outline: none;
   box-shadow: none;
   border: 0 !important;
   background-image: none;
@@ -114,12 +137,14 @@ select {
   position: relative;
   overflow: hidden;
 }
+
 select {
   color: #FFC502;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
   width: 12rem;
 }
+
 /* Arrow */
 .select::after {
   content: "\25BC";
@@ -131,6 +156,7 @@ select {
   cursor: pointer;
   pointer-events: none;
 }
+
 /* Transition */
 /*
 .select:hover::after {
