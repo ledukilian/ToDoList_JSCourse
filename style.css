@@ -63,7 +63,7 @@ form button:hover {
   justify-content: space-between;
   align-items: center;
   transition: all 1s ease;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .filter-todo {
@@ -75,12 +75,12 @@ form button:hover {
 }
 
 .trash-btn {
-  border-radius: 0px 20px 20px 0px;
+  border-radius: 0px 10px 10px 0px;
 }
 
 .trash-btn,
 .complete-btn {
-  background: #FF0000;
+  background: #E50000;
   color: white;
   border: none;
   padding: 1rem;
@@ -89,7 +89,7 @@ form button:hover {
 }
 
 .complete-btn {
-  background: #0DE73F;
+  background: #1CDB48;
 }
 
 .todo-item {
@@ -136,6 +136,7 @@ select {
   margin: 1rem;
   position: relative;
   overflow: hidden;
+  border-radius: 10px;
 }
 
 select {
