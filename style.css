@@ -50,7 +50,7 @@ form button:hover {
 }
 
 .todo-list {
-  min-width: 30%;
+  min-width: 80%;
   list-style: none;
 }
 
@@ -143,7 +143,8 @@ select {
   color: #FFC502;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
-  width: 12rem;
+  width: 18rem;
+  font-size: 1.5rem;
 }
 
 /* Arrow */
@@ -156,6 +157,7 @@ select {
   background: #FFC502;
   cursor: pointer;
   pointer-events: none;
+  font-size: 1.5rem;
 }
 
 /* Transition */
