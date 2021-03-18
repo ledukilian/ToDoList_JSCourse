@@ -5,19 +5,21 @@
 }
 
 body {
-  background-image: linear-gradient(120deg, #0F0F0F 0%, #4F4F4F 100%);
+  background-image: linear-gradient(120deg, #0F0F0F 0%, #0b3b92 100%);
   color: white;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
 }
 
 header {
-  font-size: 2rem;
+  font-size: 2.0rem;
 }
-
+h1 {
+  font-size: 4.0rem;
+}
 header,
 form {
-  min-height: 20vh;
+  min-height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,16 +28,17 @@ form {
 form input,
 form button {
   padding: 0.5rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   border: none;
   background: #FFFFFF;
 }
 
 form button {
-  color: #0DE73F;
+  color: #18F24B;
   background: #f7fffe;
   cursor: pointer;
   transition: all 0.3s ease;
+  border-radius: 0px 30px 30px 0px;
 }
 
 form button:hover {
@@ -50,14 +53,14 @@ form button:hover {
 }
 
 .todo-list {
-  min-width: 80%;
+  min-width: 60%;
   list-style: none;
 }
 
 .todo {
   margin: 0.5rem;
   background: white;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: black;
   display: flex;
   justify-content: space-between;
@@ -80,7 +83,7 @@ form button:hover {
 
 .trash-btn,
 .complete-btn {
-  background: #E50000;
+  background: #FF391F;
   color: white;
   border: none;
   padding: 1rem;
@@ -116,6 +119,7 @@ h6 {
 }
 
 input[type="text"] {
+  border-radius: 10px 0px 0px 10px;
   outline: none;
 }
 
@@ -140,11 +144,11 @@ select {
 }
 
 select {
-  color: #FFC502;
+  color: #1F6DFF;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
   width: 18rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 /* Arrow */
@@ -154,10 +158,10 @@ select {
   top: 0;
   right: 0;
   padding: 1rem;
-  background: #FFC502;
+  background: #1F6DFF;
   cursor: pointer;
   pointer-events: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 /* Transition */
