@@ -1,4 +1,4 @@
-# To-Do List
+# ✅ To-Do List
 ### 🎯 About it
 A small Todo project from <b>The Creative Javascript Course</b> by <b>DevEd</b>.
 [Check course](https://developedbyed.com/p/the-creative-javascript-course "The Creative Javascript Course")
