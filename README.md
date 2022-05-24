@@ -14,4 +14,4 @@ A small Todo project from <b>The Creative Javascript Course</b> by <b>DevEd</b>.
 - Local Storage
  
 ## 🎨 Preview
-![image](https://user-images.githubusercontent.com/54909696/170127411-22681d95-4097-41c0-bfdb-7aa79ed80754.png)
+![image](https://user-images.githubusercontent.com/54909696/170137806-2eaf3f7c-7ba0-401a-8415-1859cc3fce52.png)
