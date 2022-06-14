@@ -9,9 +9,9 @@ A small Todo project from <b>The Creative Javascript Course</b> by <b>DevEd</b>.
 - Generating Todos
 - Adding Todos
 - Delete and Mark
+- Local Storage
 - Animations
 - Filtering
-- Local Storage
  
 ## 🎨 Preview
 ![image](https://user-images.githubusercontent.com/54909696/170137806-2eaf3f7c-7ba0-401a-8415-1859cc3fce52.png)
